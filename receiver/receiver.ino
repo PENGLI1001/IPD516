@@ -77,7 +77,7 @@ void process_midi_command() {
 
 int note_to_frequency(uint8_t note) {
   switch(note) {
-        case 36: return 65;
+    case 36: return 65;
     case 37: return 69;
     case 38: return 73;
     case 39: return 78;
